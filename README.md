@@ -18,5 +18,13 @@ This project demonstrates how to deploy a web server on AWS using EC2 and Nginx.
 ## Live Server
 http://54.196.215.17
 
+## Screenshots
+
+### EC2 Instance Running
+![EC2](./ec2-running.png)
+
+### Nginx Web Server
+![Nginx](./nginx-success.png)
+
 ## Status
 Project completed successfully 🚀
