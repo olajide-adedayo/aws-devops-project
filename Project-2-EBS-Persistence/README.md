@@ -22,19 +22,19 @@ It simulates a real-world scenario where application data must persist even afte
 ```bash
 lsblk
 
-Format Disk:
+### 2. Format Disk:
 sudo mkfs -t ext4 /dev/nvme1n1
 
-Create Mount Point:
+### 3. Create Mount Point:
 sudo mkdir /data
 
-Mount Volume:
+### 4. Mount Volume:
 sudo mount /dev/nvme1n1 /data
 
-Verify Mount:
+### 5. Verify Mount:
 df -h
 
-Test Storage:
+### 6. Test Storage:
 cd /data
 sudo touch testfile.txt
 ls
